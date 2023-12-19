@@ -1,0 +1,33 @@
+/* Apply a standard reset for margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the container styles for full viewport width and height with flex centering */
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the button, removing borders and making it transparent with a cursor pointer */
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Style the icon within the button, setting its size */
+i {
+    font-size: 100px;
+}
+
+/* Apply styles for the dark theme, changing background and text color */
+.dark-theme {
+    background-color: rgb(32,33,36);
+    color: rgb(232,234,237);
+}
